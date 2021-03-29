@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int globalA;
+int globalB = 56;
+ 
+int main(){int a = 1;
+    const int b = 2;
+ 
+    printf("%i", a);
+ 
+    return 0;
+}
